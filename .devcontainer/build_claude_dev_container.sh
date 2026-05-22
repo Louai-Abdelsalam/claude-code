@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# https://code.claude.com/docs/en/devcontainer#run-without-permission-prompts
+
 WORKSPACE_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 docker build \
